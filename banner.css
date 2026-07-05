@@ -1,0 +1,62 @@
+.banner{
+    display: flex;   
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+            padding: 20px;
+}
+.banner-content{
+    flex: 1;
+    text-align: center;
+}
+.pic-container{
+flex: 1;
+}
+.pic-container img{
+    width: 100%;
+}
+.banner-content button{
+    background-color: rgb(190, 12, 12);
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-content button:hover{
+    background-color: rgb(255, 0, 85);
+}
+ .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 191, 206);
+ }
+ .log-in{
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(80, 163, 159);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(167, 0, 117);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .log-in input{
+    padding: 20px;
+    border: 2px;
+    border-radius: 4px;
+    font-size: 16px;
+     }
+     .log-in button{
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        background-color: royalblue;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        }
+        .log-in button:hover{
+            background-color: darkcyan;
+        }
+ 
